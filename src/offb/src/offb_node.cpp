@@ -84,6 +84,18 @@ int main(int argc, char **argv)
             pose.pose.position.x = 10;
             pose.pose.position.y = 20;
             pose.pose.position.z = 2;
+            
+            
+            
+            
+            //pose.pose.orientation.w = 2; to change theta. Look into geometry pose messages quaternion via google
+            
+            
+            
+            
+            
+            
+            
             local_pos_pub.publish(pose);
 
         }
