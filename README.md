@@ -10,7 +10,7 @@ Create a workspace
 Fork project so files are in your workspace  
 
 cd your-workspace  
-catkin_make  
+catkin build offb    
 source devel/setup.bash  
 ./launch-offb.sh  
 
