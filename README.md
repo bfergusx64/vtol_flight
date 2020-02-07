@@ -10,7 +10,8 @@ Create a workspace
 Fork project so files are in your workspace  
 
 cd your-workspace  
-catkin build offb    
+catkin build offb  
+source ~/catkin_ws/px4/Tools/setup_gazebo.bash ~/catkin_ws/px4 ~/catkin_ws/px4/build/px4_sitl_default  
 source devel/setup.bash  
 ./launch-offb.sh  
 
