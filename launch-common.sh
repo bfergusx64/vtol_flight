@@ -1,6 +1,6 @@
 #!/bin/bash
 
-px4_dir=$(pwd)/px4-firmware
+px4_dir=$(pwd)/px4
 
 source $px4_dir/Tools/setup_gazebo.bash $px4_dir $px4_dir/build/posix_sitl_default
 
