@@ -2,6 +2,7 @@
 ROS Desktop Full  
 PX4 Firmware  
 MAVROS  
+Make sure mavros and mavlink folders are in src  
 
 ## Compiling & Running
 Make sure all dependencies are installed  
