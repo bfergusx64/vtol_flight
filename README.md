@@ -18,5 +18,5 @@ source devel/setup.bash
 Add obstacle avoidance  
 ~~Modify gazebo world file to be similar to IARC course (i.e. add the two goal posts we have to fly around and the swaying mast)~~  
 ~~Create folder and file for gazebo world and upload to github (right now it runs using a world file that is part of the PX4 Firmware)~~  
-~~After takeoff provide functions for the VTOL to fly around the two goal posts for a set length~~
-~~Abstract away low leve flight details
+~~After takeoff provide functions for the VTOL to fly around the two goal posts for a set length~~  
+~~Abstract away low leve flight details~~
