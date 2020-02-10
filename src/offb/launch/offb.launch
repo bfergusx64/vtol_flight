@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <launch>
-    <include file="/home/redbird-general/catkin_ws/px4/launch/mavros_posix_sitl.launch"/>
+    <include file="$(find px4)/launch/mavros_posix_sitl.launch">
+    <arg name="vehicle" default="standard_vtol"/>
+    <arg name="world" default="$(find mavlink_sitl_gazebo)/worlds/empty.world"/>
+    <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/standard_vtol/standard_vtol.sdf"/>
+    </include>
 
     <node name="offb" pkg="offb" type="offb_node" output="screen"/>
 </launch>
