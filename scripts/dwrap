@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -it -v "$PWD":/vtol_flight -w /vtol_flight px4io/px4-dev-ros-melodic:latest "$@"
+
